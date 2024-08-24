@@ -1,4 +1,3 @@
-```
 # Hotel Management API
 
 This is a Django-based REST API for managing hotel room availability and user queries. The project includes endpoints to get user queries, check hotel room availability, and book hotel rooms.
@@ -74,7 +73,15 @@ Follow these steps to set up the project on your local machine:
    python manage.py migrate
    ```
 
-6. **Run the Development Server**
+6. **Create a Superuser**
+
+   To access the Django admin interface:
+
+   ```bash
+   python manage.py createsuperuser
+   ```
+
+7. **Run the Development Server**
 
    Start the Django development server:
 
@@ -151,20 +158,3 @@ To test the API endpoints, you can use Postman or `curl`:
 ## Contributing
 
 Feel free to submit pull requests or open issues to contribute to this project.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-```
-
-### Key Points Covered:
-- **Project Overview:** Brief description of what the project does.
-- **Setup Instructions:** Steps to set up and run the project locally.
-- **Usage:** How to use the admin interface and test the API endpoints.
-- **API Endpoints:** Detailed information about each endpoint.
-- **Testing:** How to test the endpoints using Postman or `curl`.
-- **Contributing:** Information on how others can contribute to the project.
-- **License:** Licensing information for the project.
-
-Feel free to customize the `README.md` file further based on your project's specific requirements and details.

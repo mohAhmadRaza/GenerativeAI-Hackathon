@@ -1,5 +1,7 @@
 # Hotel Management API
 
+View Article Here : [REST APIs](https://www.linkedin.com/pulse/rest-apis-django-how-set-up-project-comprehensive-guide-ahmad-raza-i3b6e/)
+
 This is a Django-based REST API for managing hotel room availability and user queries. The project includes endpoints to get user queries, check hotel room availability, and book hotel rooms.
 
 ## Table of Contents
